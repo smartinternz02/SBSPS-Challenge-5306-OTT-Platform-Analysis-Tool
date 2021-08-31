@@ -1,0 +1,152 @@
+@import "../../variable";
+.whatshot {
+  .title {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .intro {
+    margin-top: 40px;
+    background-color: $primary-color;
+    border-radius: 22px;
+    padding: 30px 120px 36px 292px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+    .image {
+      position: absolute;
+      bottom: -30.86px;
+      left: 24px;
+    }
+    .title {
+      font-size: 22px;
+      font-weight: 700;
+    }
+  }
+  .trending-series,
+  .trending-movies {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    height: 400px;
+    .card-container {
+      background-color: $primary-color;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: center;
+      background-position-y: center;
+
+      border-radius: 22px;
+      position: relative;
+      width: 250px;
+      height: 375px;
+      margin-right: 15px;
+      .img-container {
+        border-radius: 22px;
+        overflow: hidden;
+        transition: transform 0.15s ease-in;
+        // position: absolute;
+        height: 375px;
+        width: 250px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .info-container {
+        position: absolute;
+        opacity: 0;
+        border-radius: 22px;
+        transition: opacity 0.15s ease-in;
+        backdrop-filter: blur(3px);
+        bottom: 0;
+        left: 0;
+        right: 0;
+        .info-div {
+          .name {
+            font-weight: 700;
+            font-size: 18px;
+            background-color: #000;
+            display: inline-block;
+            padding: 5px 10px;
+            margin-bottom: 5px;
+            border-radius: 0 10px 0 10px;
+          }
+          .genres {
+            display: flex;
+            flex-wrap: wrap;
+            .genre {
+              background-color: $accent-color;
+              margin-bottom: 3px;
+              margin-right: 4px;
+              padding: 3px 6px;
+              font-size: 12px;
+              border-radius: 7px;
+            }
+          }
+          padding: 250px 10px 5px;
+        }
+        .provider-div {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: $black;
+          padding: 0 10px 10px 10px;
+          border-radius: 0 0 22px 22px;
+          img {
+            width: 40px;
+            border-radius: 50%;
+          }
+          .provider-name {
+            font-size: 16px;
+            font-weight: 600;
+          }
+        }
+      }
+
+      &:hover {
+        .img-container {
+          transform: translateY(-100%);
+        }
+        .info-container {
+          opacity: 1;
+        }
+      }
+    }
+
+    &::-webkit-scrollbar {
+      width: 1rem;
+      border-radius: 20px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #15181c;
+      border-radius: 20px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: black;
+      border-radius: 20px;
+    }
+  }
+  .twitter-section {
+    margin-top: 30px;
+    min-height: 300px;
+    padding: 25px 40px;
+    border-radius: 22px;
+    background-color: $primary-color;
+    .title {
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .tweets {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}

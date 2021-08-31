@@ -1,0 +1,25 @@
+.form-group {
+  position: relative;
+  .form-input {
+    display: block;
+    height: 47px;
+    width: 361px;
+    background-color: #f4f8f7;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding: 0 44px;
+    &::placeholder {
+      color: #adb1b0;
+      margin-left: 16px;
+    }
+  }
+  .icon {
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    height: 20px;
+    width: 20px;
+  }
+}

@@ -1,0 +1,270 @@
+@import "../../variable";
+.home-content {
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    .hero-img-section {
+      height: 422px;
+      width: 314px;
+      position: relative;
+      border-radius: $card-rad;
+      border: 1px solid $border-color;
+      overflow: hidden;
+      background-color: $accent-color;
+      .text {
+        position: absolute;
+        top: 50px;
+        left: 37px;
+        font-size: 16px;
+        width: 78%;
+      }
+      .hero-img {
+        position: absolute;
+        top: 166px;
+        #ques {
+          animation: quest 3s infinite ease-in-out;
+        }
+        #search {
+          animation: searching 3s infinite ease-in-out;
+          transform-origin: 60% 50%;
+        }
+      }
+    }
+    .hero-content {
+      background-color: $primary-color;
+      text-align: center;
+      border-radius: $card-rad;
+      width: 680px;
+      @media (min-width: 1600px) {
+        width: 940px;
+      }
+      .title {
+        margin-top: 60px;
+        margin-bottom: 50px;
+        font-size: 24px;
+        font-weight: 700;
+        @media (min-width: 1600px) {
+          font-size: 26px;
+        }
+      }
+      .text {
+        font-size: 18px;
+        width: 532px;
+        margin: 0 auto;
+        @media (min-width: 1600px) {
+          width: 700px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .features {
+    margin-top: 30px;
+    background-color: $primary-color;
+    border-radius: $card-rad;
+    padding: 85px;
+    text-align: center;
+    .main-title {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .text {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 50px;
+      align-items: center;
+      justify-items: center;
+
+      @media (max-width: 1400px) {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+  .why-ott {
+    margin-top: 30px;
+    border-radius: $card-rad;
+    border: 1px solid $border-color;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    .title {
+      font-weight: 700;
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    .reasons {
+      height: 286px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      .reason {
+        width: 100%;
+        text-align: center;
+        padding: 15px 24px;
+        background-color: $primary-color;
+        border-radius: 10px;
+        font-size: 16px;
+        transition: all 0.15s ease-in;
+        &:hover {
+          box-shadow: 2px 2px 2px $accent-color;
+          transform: translateX(-2px) translateY(-2px);
+        }
+      }
+    }
+  }
+  .team {
+    margin-top: 30px;
+    .title {
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .team-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 47px;
+      align-items: center;
+
+      @media (max-width: 1400px) {
+        grid-gap: 10px;
+      }
+      .ui-team,
+      .ml-team {
+        border-radius: $card-rad;
+        border: 1px solid $border-color;
+        padding: 35px;
+        @media (max-width: 1400px) {
+          padding: 15px;
+          padding-bottom: 30px;
+        }
+        padding-bottom: 60px;
+        .team-name {
+          font-size: 22px;
+          font-weight: 700;
+          text-align: center;
+          margin-bottom: 44px;
+        }
+        .team-members {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 284px;
+          .team-member-card {
+            display: grid;
+            grid-template-columns: 4fr 1fr;
+            grid-gap: 9px;
+
+            .profile {
+              padding: 20px 24px;
+              border-radius: 15px;
+              border: 1px solid $border-color;
+              display: flex;
+              img {
+                width: 79px;
+                height: 79px;
+                border-radius: 10px;
+              }
+              .details {
+                margin-left: 20px;
+                .name {
+                  text-transform: uppercase;
+                  font-size: 24px;
+                  @media (max-width: 1400px) {
+                    font-size: 18px;
+                  }
+                  margin-bottom: 20px;
+                }
+                .socials {
+                  svg {
+                    margin-right: 17px;
+                    path {
+                      transition: 0.15s ease-in-out;
+                    }
+                  }
+
+                  .git:hover {
+                    svg {
+                      path {
+                        fill: #6cc644;
+                      }
+                    }
+                  }
+                  .in:hover {
+                    svg {
+                      path {
+                        fill: #2867b2;
+                      }
+                    }
+                  }
+                  .twit:hover {
+                    svg {
+                      path {
+                        fill: #1da1f2;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .mail {
+              padding: 20px 22.6px 20px 24px;
+              border-radius: 15px;
+              border: 1px solid $border-color;
+              svg {
+                margin: 22px auto 0;
+                path {
+                  transition: 0.15s ease-in-out;
+                }
+              }
+              &:hover {
+                svg {
+                  path {
+                    fill: red;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .ui-team {
+        border: none;
+        background-color: $primary-color;
+      }
+    }
+  }
+}
+
+@keyframes searching {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(-10deg) translateX(10px);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes quest {
+  0% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}

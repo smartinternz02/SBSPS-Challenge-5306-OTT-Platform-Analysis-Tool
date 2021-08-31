@@ -1,0 +1,10 @@
+---
+applications:
+# The Python app starts here
+  - name: sentiment-analysis-tan
+    memory: 256M
+    command: gunicorn app3:app
+    random-route: true
+    path: .
+    buildpacks:
+      - python_buildpack

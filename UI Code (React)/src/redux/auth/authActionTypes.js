@@ -1,0 +1,8 @@
+//Action types for Authentication
+export const authActionTypes = {
+  LOGIN_SUCCESS: "LOGIN_SUCCESS",
+  LOGIN_ERROR: "LOGIN_ERROR",
+  SIGNOUT_SUCCESS: "SIGNOUT_SUCCESS",
+  SIGNUP_SUCESS: "SIGNUP_SUCESS",
+  SIGNUP_ERROR: "SIGNUP_ERROR",
+};

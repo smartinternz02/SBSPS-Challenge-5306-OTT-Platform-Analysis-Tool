@@ -1,0 +1,46 @@
+@import "../../variable";
+
+.menu-item {
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 12px;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+  .logo {
+    height: 24px;
+    width: 24px;
+    svg {
+      width: 100%;
+      height: 100%;
+      path,
+      rect {
+        fill: $border-color;
+      }
+    }
+  }
+  .text {
+    margin-left: 17px;
+    font-size: 18px;
+    color: $border-color;
+  }
+  transition: all 0.15s ease-in;
+
+  &:hover,
+  &.active {
+    background-color: $secondary-color;
+    .logo {
+      svg {
+        path,
+        rect {
+          fill: $white;
+        }
+      }
+    }
+    .text {
+      color: $white;
+    }
+  }
+}

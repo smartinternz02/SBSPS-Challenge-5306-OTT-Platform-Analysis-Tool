@@ -1,0 +1,20 @@
+.feature-card {
+  border-radius: 26px;
+  height: 250px;
+  width: 250px;
+  .title {
+    font-size: 18px;
+    font-weight: 700;
+
+    margin: 40px auto 13px auto;
+  }
+  .info {
+    width: 193px;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+  transition: transform 0.15s ease-in;
+  &:hover {
+    transform: scale(1.1);
+  }
+}

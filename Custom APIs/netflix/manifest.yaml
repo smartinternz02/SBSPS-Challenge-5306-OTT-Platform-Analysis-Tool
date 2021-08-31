@@ -1,0 +1,9 @@
+---
+applications:
+# The Python app starts here
+  - name: sentiment-analysis-tan1
+    memory: 256M
+    random-route: true
+    path: .
+    buildpacks:
+      - python_buildpack

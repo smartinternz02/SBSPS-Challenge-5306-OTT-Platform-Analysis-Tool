@@ -1,0 +1,206 @@
+@import "../../variable";
+.disney-data {
+  margin-top: 30px;
+  .price-plans {
+    .title {
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      margin-bottom: 25px;
+      text-align: center;
+      font-size: 16px;
+    }
+    margin-bottom: 30px;
+    .price-plans-grid {
+      // text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .price-card {
+        overflow: hidden;
+        position: relative;
+        background-color: #634ab0;
+        padding: 20px 25px;
+        width: 32%;
+        border-radius: 22px;
+        box-sizing: border-box;
+        .plan-name {
+          font-size: 24px;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+        .plan-cost {
+          font-size: 44px;
+        }
+        img {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+        }
+        .duration {
+          font-size: 21px;
+          margin-top: -15px;
+        }
+      }
+    }
+  }
+  .total-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    .total-movies,
+    .total-series {
+      position: relative;
+      width: 48.5%;
+      background-color: #634ab0;
+      border-radius: $card-rad;
+      box-sizing: border-box;
+      padding: 20px 25px;
+      .img {
+        position: absolute;
+        bottom: 2px;
+        right: 20px;
+        img {
+          width: 70px;
+        }
+      }
+      .text {
+        font-weight: 700;
+        font-size: 1.4rem;
+      }
+      .amount {
+        font-size: 3rem;
+      }
+    }
+  }
+  .note {
+    font-size: 11px;
+    color: $border-color;
+  }
+  .movies {
+    background-color: $primary-color;
+    margin-bottom: 30px;
+    border-radius: 22px;
+    overflow: hidden;
+    padding: 25px 20px;
+    .title {
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      margin-bottom: 25px;
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+
+  .movies,
+  .series {
+    position: relative;
+    .tooltip {
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      background-color: transparent;
+      padding: 7.5px 10px 6px;
+      border-radius: 5px;
+      border: $accent-color 3px solid;
+      .tooltip-content {
+        div {
+          font-size: 18px;
+          font-weight: 700;
+        }
+        position: absolute;
+        top: 0;
+        right: 125%;
+        z-index: 1;
+        border: $accent-color 3px solid;
+        border-radius: 10px;
+        display: none;
+        width: 400px;
+        padding: 20px;
+      }
+      img {
+        filter: invert(1);
+        width: 25px;
+        height: 25px;
+        transition: all ease-in;
+      }
+      transition: all 0.15s ease-in;
+      &:hover {
+        background-color: $accent-color;
+        img {
+          animation: find 1s infinite;
+        }
+        .tooltip-content {
+          display: block;
+        }
+      }
+    }
+  }
+  .map {
+    .f32 .flag {
+      vertical-align: middle !important;
+    }
+    .highcharts-tooltip > span {
+      padding: 10px;
+      white-space: normal !important;
+      width: 250px;
+    }
+  }
+  .movies {
+    .tooltip {
+      .tooltip-content {
+        background-color: $secondary-color;
+      }
+    }
+    .cust {
+      display: flex;
+      .gauge {
+        width: 360px;
+      }
+      .cloud {
+        width: calc(100% - 390px);
+      }
+    }
+  }
+  .series {
+    .tooltip {
+      .tooltip-content {
+        background-color: $primary-color;
+      }
+    }
+  }
+  .series {
+    border-radius: 22px;
+    background-color: $secondary-color;
+    border: 1px solid $border-color;
+    margin-bottom: 30px;
+    padding: 25px 20px;
+    overflow: hidden;
+    .title {
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      margin-bottom: 25px;
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+  .comp-flex {
+    display: flex;
+    justify-content: space-between;
+    .series,
+    .movies {
+      width: 45%;
+    }
+  }
+}

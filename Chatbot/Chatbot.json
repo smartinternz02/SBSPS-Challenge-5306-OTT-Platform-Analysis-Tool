@@ -1,0 +1,3046 @@
+{
+  "intents": [
+    {
+      "intent": "favourite_option",
+      "examples": [
+        {
+          "text": "favourite"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Avengers"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "main-menu",
+      "examples": [
+        {
+          "text": "Display the menu"
+        },
+        {
+          "text": "How can you help me"
+        },
+        {
+          "text": "Show the main menu"
+        },
+        {
+          "text": "What can you do for me ?"
+        }
+      ],
+      "description": "Display the main menu"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "discover",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "suggest_movie",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "suggest_tv",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "find",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "movie",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "series",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "genre",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "10749",
+          "synonyms": [
+            "Romance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "10751",
+          "synonyms": [
+            "Family"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "10759",
+          "synonyms": [
+            "Action & Adventure"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "10762",
+          "synonyms": [
+            "Kids"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "10765",
+          "synonyms": [
+            "Sci-Fi & Fantasy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "14",
+          "synonyms": [
+            "Fantasy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "16",
+          "synonyms": [
+            "Animation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "18",
+          "synonyms": [
+            "Drama"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "27",
+          "synonyms": [
+            "Horror"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "28",
+          "synonyms": [
+            "Action"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "35",
+          "synonyms": [
+            "Comedy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "878",
+          "synonyms": [
+            "Science Fiction"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "9648",
+          "synonyms": [
+            "Mystery"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "menu",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "favourite",
+          "synonyms": [
+            "favourite",
+            "favourite movies",
+            "favourite series",
+            "find movie",
+            "find series"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "information",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "second",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "subscription",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "naah",
+            "no",
+            "nope",
+            "no thanks"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "platform",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Hotstar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Netflix",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Prime",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "provider",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "119",
+          "synonyms": [
+            "APV"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "122",
+          "synonyms": [
+            "DPH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "8",
+          "synonyms": [
+            "N"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "yes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yeah",
+            "yes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "skill": {
+      "counts": {
+        "intents": 11,
+        "entities": 8,
+        "dialog_nodes": 60
+      }
+    },
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.appdomain.cloud/api/v1/web/Sravani123_dev/default/FavouriteData.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_2_1628706055192",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter the exact title"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1628890620206",
+      "context": {
+        "movie-title": "<?input.text?>"
+      },
+      "event_name": "focus",
+      "dialog_node": "handler_10_1628890620233",
+      "previous_sibling": "handler_5_1628890620233"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1629108218663",
+      "context": {
+        "genre": "@genre"
+      },
+      "conditions": "@genre",
+      "event_name": "input",
+      "dialog_node": "handler_1_1629108218741"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1628868939663",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1628891026952",
+      "previous_sibling": "handler_7_1628890887490"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter the exact title of the movie "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1628868939663",
+      "context": {
+        "movie-title": "<?input.text?>"
+      },
+      "event_name": "focus",
+      "dialog_node": "handler_4_1628868939713",
+      "previous_sibling": "handler_8_1628868939713"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1628967565018",
+      "context": {
+        "type": "$hellokitty"
+      },
+      "conditions": "$hellokitty",
+      "event_name": "input",
+      "dialog_node": "handler_4_1628967565018"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1628890620206",
+      "context": {
+        "type": "@find"
+      },
+      "conditions": "@find",
+      "event_name": "input",
+      "dialog_node": "handler_5_1628890620233"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter the exact title of the TV Series"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1628967565018",
+      "context": {
+        "series-title": "<?input.text?>"
+      },
+      "event_name": "focus",
+      "dialog_node": "handler_5_1628967565018",
+      "previous_sibling": "handler_4_1628967565018"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1629109120625",
+      "context": {
+        "genre": "@genre"
+      },
+      "conditions": "@genre",
+      "event_name": "input",
+      "dialog_node": "handler_5_1629109120625"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "time": 50,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "parent": "slot_3_1628967565018",
+      "context": {
+        "type": "tv",
+        "series-title": "<?input.text?>"
+      },
+      "conditions": "$series-title",
+      "event_name": "nomatch",
+      "dialog_node": "handler_6_1628967565018",
+      "previous_sibling": "handler_5_1628967565018"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Choose a genre"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1629108218663",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1629108218742",
+      "previous_sibling": "handler_1_1629108218741"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Choose a genre"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_4_1629109120625",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1629109120625",
+      "previous_sibling": "handler_5_1629109120625"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "time": 50,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "parent": "slot_7_1628868939663",
+      "context": {
+        "type": "movie",
+        "movie-title": "<?input.text?>"
+      },
+      "conditions": "$movie-title",
+      "event_name": "nomatch",
+      "dialog_node": "handler_7_1628890887490",
+      "previous_sibling": "handler_4_1628868939713"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1628967565018",
+      "event_name": "filled",
+      "dialog_node": "handler_7_1628967565018",
+      "previous_sibling": "handler_6_1628967565018"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1628868939663",
+      "context": {
+        "type": "$hellokitty"
+      },
+      "conditions": "$hellokitty",
+      "event_name": "input",
+      "dialog_node": "handler_8_1628868939713"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Go back to main menu ?",
+                "value": {
+                  "input": {
+                    "text": "main menu "
+                  }
+                }
+              },
+              {
+                "label": "Find more content ?",
+                "value": {
+                  "input": {
+                    "text": "favourite"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1628706980683",
+      "context": {
+        "type": null,
+        "movie-title": null
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1628893000439",
+      "previous_sibling": "response_8_1628966933529"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "What type of content are you looking for ? ",
+            "options": [
+              {
+                "label": "Movies",
+                "value": {
+                  "input": {
+                    "text": "suggest_movie"
+                  }
+                }
+              },
+              {
+                "label": "TV Series",
+                "value": {
+                  "input": {
+                    "text": "suggest_tv"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1628706008992",
+      "context": {
+        "provider": "@provider"
+      },
+      "conditions": "@provider",
+      "dialog_node": "node_10_1629058624983"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1628893000439",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1628705641241"
+      },
+      "conditions": "@menu:favourite",
+      "dialog_node": "node_10_1629558341584"
+    },
+    {
+      "type": "frame",
+      "title": "Series",
+      "output": {},
+      "parent": "node_7_1628705641241",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "name": "$series-title",
+            "type": "$type"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1628967565018"
+      },
+      "conditions": "@find:series",
+      "dialog_node": "node_1_1628967565014",
+      "previous_sibling": "node_9_1628706980683"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Go back to main menu ?",
+                "value": {
+                  "input": {
+                    "text": "main menu "
+                  }
+                }
+              },
+              {
+                "label": "Discover more genre based content ? ",
+                "value": {
+                  "input": {
+                    "text": "second"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1629060628922",
+      "context": {
+        "genre": null,
+        "provider": null,
+        "content-type": null
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1629108866376"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "source": "https://www.myareapage.com/wp-content/uploads/2021/05/Amazon-Prime-Video-Banner.png.webp",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Amazon Prime Video or Prime video is an OTT platform that came to India in 2016. It started in the United States in 2006 and is owned by Amazon Inc. \nIt has a vast library of movies and TV series. The OTT platform Prime Videos is known in India for its original web series such as Mirzapur, The Family Man, Tandav, Paatal Lok, and One-Mic Stand, among others. It’s also home to some critically-acclaimed international TV shows and movies, regional content, Bollywood, kids content, and iconic TV shows.\nAmazon Prime is the second most subscribed program in India. Because of its low cost and good quality content."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Go back to main menu ",
+                "value": {
+                  "input": {
+                    "text": "main menu "
+                  }
+                }
+              },
+              {
+                "label": "Discover information about other OTTs",
+                "value": {
+                  "input": {
+                    "text": "information"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1629117413321",
+      "conditions": "@platform:Prime",
+      "dialog_node": "node_1_1629117526540",
+      "previous_sibling": "node_4_1629117499402"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "source": "https://www.myareapage.com/wp-content/uploads/2021/05/Disney-plus-hotstar-banner.png.webp",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Disney+ Hotstar is arguably the most popular OTT platform in India. The streaming service, now owned by Walt Disney, has a vast catalogue of content that is divided across movies, TV shows, web series, sports, kids content, and news. With Disney owning the service, you also get access to Marvel, Star Wars, and tons of Disney animated movies and shows. Disney+ Hotstar is compatible with both iOS and Android devices as well as PCs and smart TV."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Go back to main menu ",
+                "value": {
+                  "input": {
+                    "text": "main menu"
+                  }
+                }
+              },
+              {
+                "label": "Discover information about other OTTs",
+                "value": {
+                  "input": {
+                    "text": "information"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1629117413321",
+      "conditions": "@platform:Hotstar",
+      "dialog_node": "node_1_1629117547488",
+      "previous_sibling": "node_1_1629117526540"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Choose a streaming platform to know about the subscription plans",
+            "options": [
+              {
+                "label": "Netflix",
+                "value": {
+                  "input": {
+                    "text": "Netflix"
+                  }
+                }
+              },
+              {
+                "label": "Amazon Prime Video",
+                "value": {
+                  "input": {
+                    "text": "Prime"
+                  }
+                }
+              },
+              {
+                "label": "Disney plus Hotstar",
+                "value": {
+                  "input": {
+                    "text": "Hotstar"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1628701390251",
+      "conditions": "@menu:subscription",
+      "dialog_node": "node_1_1629120816290",
+      "previous_sibling": "node_8_1629117413321"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1628967565018",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1628705641241"
+      },
+      "conditions": "@menu:favourite",
+      "dialog_node": "node_1_1629558455137"
+    },
+    {
+      "type": "standard",
+      "title": "End",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "See you soon!! Had a great time chatting with you."
+              },
+              {
+                "text": "Byee..have a great day!"
+              },
+              {
+                "text": "It was nice talking to you "
+              },
+              {
+                "text": "Hope i was able to help you out!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#General_Ending || @no",
+      "dialog_node": "node_2_1628706055192",
+      "previous_sibling": "node_9_1628701390251"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Go back to main menu ?",
+                "value": {
+                  "input": {
+                    "text": "main menu "
+                  }
+                }
+              },
+              {
+                "label": "Find more content ?",
+                "value": {
+                  "input": {
+                    "text": "favourite"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1628967565014",
+      "context": {
+        "type": null,
+        "series-title": null
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1628967565018",
+      "previous_sibling": "response_13_1628967565018"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Select a genre to get TV Series recommendations based on your choices",
+            "options": [
+              {
+                "label": "Action & Adventure",
+                "value": {
+                  "input": {
+                    "text": "10759"
+                  }
+                }
+              },
+              {
+                "label": "Animation",
+                "value": {
+                  "input": {
+                    "text": "16"
+                  }
+                }
+              },
+              {
+                "label": "Comedy",
+                "value": {
+                  "input": {
+                    "text": "35"
+                  }
+                }
+              },
+              {
+                "label": "Drama",
+                "value": {
+                  "input": {
+                    "text": "18"
+                  }
+                }
+              },
+              {
+                "label": "Family",
+                "value": {
+                  "input": {
+                    "text": "10751"
+                  }
+                }
+              },
+              {
+                "label": "Kids",
+                "value": {
+                  "input": {
+                    "text": "10762"
+                  }
+                }
+              },
+              {
+                "label": "Mystery",
+                "value": {
+                  "input": {
+                    "text": "9648"
+                  }
+                }
+              },
+              {
+                "label": "Sci-Fi & Fantasy",
+                "value": {
+                  "input": {
+                    "text": "10765"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1629058624983",
+      "context": {
+        "content-type": "tv"
+      },
+      "conditions": "@discover:suggest_tv",
+      "dialog_node": "node_2_1629058182289",
+      "previous_sibling": "node_7_1629058070491"
+    },
+    {
+      "type": "frame",
+      "output": {},
+      "parent": "node_2_1629058182289",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "$content-type",
+            "genre": "$genre",
+            "provider": "$provider"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1629109120625"
+      },
+      "conditions": "@genre",
+      "dialog_node": "node_2_1629109120616"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://www.myareapage.com/wp-content/uploads/2021/05/Netflix-Banner.png.webp",
+            "description": "",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "-Mobile-only plan:  ₹ 199/month (₹ 2,388/year) : You can watch only on one mobile or tablet at-a-time at SD (480p) resolution. Cannot watch on computer or TV.\n-Basic plan:  ₹ 499/month (₹ 5,988/year) : you can watch on one device (mobile, tablet, computer or TV) at-a-time at SD (480p) resolution.\n-Standard plan: ₹ 649/month (₹ 7,788/year) : You can watch on two (mobile, tablet, computer or TV) devices at-a-time at HD (1080p) resolution.\n-Premium plan:  ₹ 799/month (₹ 9,588/year) : You can watch on four devices (mobile, tablet, computer or TV) at-a-time at Ultra HD (4K) and HDR resolution."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Go back to main menu ",
+                "value": {
+                  "input": {
+                    "text": "main menu "
+                  }
+                }
+              },
+              {
+                "label": "Know subscription plans of other streaming platforms",
+                "value": {
+                  "input": {
+                    "text": "subscription"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1629120816290",
+      "conditions": "@platform:Netflix",
+      "dialog_node": "node_2_1629120816291"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1629109120625",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1628706008992"
+      },
+      "conditions": "@menu:second",
+      "dialog_node": "node_2_1629558797792"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1629117499402",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1629117413321"
+      },
+      "conditions": "@menu:information",
+      "dialog_node": "node_2_1629559186793"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Go back to main menu ?",
+                "value": {
+                  "input": {
+                    "text": "main menu "
+                  }
+                }
+              },
+              {
+                "label": "Discover more genre based content",
+                "value": {
+                  "input": {
+                    "text": "second"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1629109120616",
+      "context": {
+        "genre": null,
+        "provider": null,
+        "content-type": null
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1629109120625"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://www.myareapage.com/wp-content/uploads/2021/05/Amazon-Prime-Video-Banner.png.webp",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "-Join 3 months of Prime at ₹ 329\n-Join 1 year of Prime at ₹ 999\n\nThe plan includes the following benefits: \n-Unlimited free and fast delivery on Amazon Store.\n-Ad-free music on Prime Music.\n-Watch movies and TV series on Prime Video.\n-Read ebooks and comics on Prime Reading.\n-Enjoy free in-game content available on Gaming with Prime."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Go back to main menu ",
+                "value": {
+                  "input": {
+                    "text": "main menu"
+                  }
+                }
+              },
+              {
+                "label": "Know subscription plans of other streaming platforms",
+                "value": {
+                  "input": {
+                    "text": "subscription"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1629120816290",
+      "conditions": "@platform:Prime",
+      "dialog_node": "node_3_1629120816291",
+      "previous_sibling": "node_2_1629120816291"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1629117526540",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1629117413321"
+      },
+      "conditions": "@menu:information",
+      "dialog_node": "node_3_1629559530315"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "source": "https://www.myareapage.com/wp-content/uploads/2021/05/Netflix-Banner.png.webp",
+            "description": " ",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Netflix, Inc. is an American over-the-top content platform and production company headquartered in Los Gatos, California. The company's primary business is a subscription-based streaming service offering online streaming from a library of films and television series, including those produced in-house. Netflix first arrived in India in 2016 and has since released several of the 'Netflix India Originals.' Sacred Games, Mismatched, Masaba Masaba, and many others. The good thing about Netflix is that it’s completely ad-free."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Go back to main menu ",
+                "value": {
+                  "input": {
+                    "text": "main menu"
+                  }
+                }
+              },
+              {
+                "label": "Discover information about other OTTs",
+                "value": {
+                  "input": {
+                    "text": "information"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1629117413321",
+      "conditions": "@platform:Netflix",
+      "dialog_node": "node_4_1629117499402"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://www.myareapage.com/wp-content/uploads/2021/05/Disney-plus-hotstar-banner.png.webp",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "VIP Plan : ₹ 399/year :\n-HD quality streaming.\n-Disney+ movies, Marvel superhero movies and kids show available only in dubbed language.\n-Content has ads.\n-You can watch it on a single screen at-a-time.\n\nPremium Plan : ₹ 1,499/year (₹299/month) :\n-4K quality streaming.\n-Disney+ movies, Marvel superhero movies and kids show available in English and dubbed language.\n-Ad-free content.\n-You can watch it on two screens at-a-time.\n-English shows and Disney+ originals available."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Go back to main menu",
+                "value": {
+                  "input": {
+                    "text": "main menu"
+                  }
+                }
+              },
+              {
+                "label": "Know subscription plans of other streaming platforms",
+                "value": {
+                  "input": {
+                    "text": "subscription"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1629120816290",
+      "conditions": "@platform:Hotstar",
+      "dialog_node": "node_4_1629120816291",
+      "previous_sibling": "node_3_1629120816291"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1629117547488",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1629117413321"
+      },
+      "conditions": "@menu:information",
+      "dialog_node": "node_4_1629559603874"
+    },
+    {
+      "type": "frame",
+      "parent": "node_7_1629058070491",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "$content-type",
+            "genre": "$genre",
+            "provider": "$provider"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1629108866376"
+      },
+      "conditions": "@genre",
+      "dialog_node": "node_5_1629060628922"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1629120816291",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1629120816290"
+      },
+      "conditions": "@menu:subscription",
+      "dialog_node": "node_5_1629559832535"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Which OTT Platform are you interested in ?",
+            "options": [
+              {
+                "label": "Netflix",
+                "value": {
+                  "input": {
+                    "text": "8"
+                  }
+                }
+              },
+              {
+                "label": "Amazon Prime Video",
+                "value": {
+                  "input": {
+                    "text": "119"
+                  }
+                }
+              },
+              {
+                "label": "Disney plus Hotstar",
+                "value": {
+                  "input": {
+                    "text": "122"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1628701390251",
+      "context": {},
+      "conditions": "@menu:second",
+      "dialog_node": "node_6_1628706008992",
+      "previous_sibling": "node_7_1628705641241"
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1629108866376",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1628706008992"
+      },
+      "conditions": "@menu:second",
+      "dialog_node": "node_6_1629558734889"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1629120816291",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1629120816290"
+      },
+      "conditions": "@menu:subscription",
+      "dialog_node": "node_6_1629559934911"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "What are you looking for ?",
+            "options": [
+              {
+                "label": "Movies",
+                "value": {
+                  "input": {
+                    "text": "movie"
+                  }
+                }
+              },
+              {
+                "label": "Series",
+                "value": {
+                  "input": {
+                    "text": "series"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1628701390251",
+      "conditions": "@menu:favourite",
+      "dialog_node": "node_7_1628705641241"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Select a genre to get movie recommendations based on your choices",
+            "options": [
+              {
+                "label": "Action",
+                "value": {
+                  "input": {
+                    "text": "28"
+                  }
+                }
+              },
+              {
+                "label": "Animation",
+                "value": {
+                  "input": {
+                    "text": "16"
+                  }
+                }
+              },
+              {
+                "label": "Comedy",
+                "value": {
+                  "input": {
+                    "text": "35"
+                  }
+                }
+              },
+              {
+                "label": "Drama",
+                "value": {
+                  "input": {
+                    "text": "18"
+                  }
+                }
+              },
+              {
+                "label": "Family",
+                "value": {
+                  "input": {
+                    "text": "10751"
+                  }
+                }
+              },
+              {
+                "label": "Horror",
+                "value": {
+                  "input": {
+                    "text": "27"
+                  }
+                }
+              },
+              {
+                "label": "Mystery",
+                "value": {
+                  "input": {
+                    "text": "9648"
+                  }
+                }
+              },
+              {
+                "label": "Romance",
+                "value": {
+                  "input": {
+                    "text": "10749"
+                  }
+                }
+              },
+              {
+                "label": "Science Fiction",
+                "value": {
+                  "input": {
+                    "text": "878"
+                  }
+                }
+              },
+              {
+                "label": "Fantasy",
+                "value": {
+                  "input": {
+                    "text": "14"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1629058624983",
+      "context": {
+        "content-type": "movie"
+      },
+      "conditions": "@discover:suggest_movie",
+      "dialog_node": "node_7_1629058070491"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Choose a streaming platform to know about it ",
+            "options": [
+              {
+                "label": "Netflix",
+                "value": {
+                  "input": {
+                    "text": "Netflix"
+                  }
+                }
+              },
+              {
+                "label": "Amazon Prime Video",
+                "value": {
+                  "input": {
+                    "text": "Prime"
+                  }
+                }
+              },
+              {
+                "label": "Disney plus Hotstar",
+                "value": {
+                  "input": {
+                    "text": "Hotstar"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1628701390251",
+      "conditions": "@menu:information",
+      "dialog_node": "node_8_1629117413321",
+      "previous_sibling": "node_6_1628706008992"
+    },
+    {
+      "type": "standard",
+      "title": "#MainMenu",
+      "output": {
+        "generic": [
+          {
+            "title": "Here are the things that I can do for you..",
+            "options": [
+              {
+                "label": "Information about different OTT Platforms",
+                "value": {
+                  "input": {
+                    "text": "information"
+                  }
+                }
+              },
+              {
+                "label": "Discover popular genre based content on top OTT Platforms",
+                "value": {
+                  "input": {
+                    "text": "second"
+                  }
+                }
+              },
+              {
+                "label": "Find where your favourite movies and TV Series are streaming",
+                "value": {
+                  "input": {
+                    "text": "favourite"
+                  }
+                }
+              },
+              {
+                "label": "Subscription Packages ",
+                "value": {
+                  "input": {
+                    "text": "subscription"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#main-menu || @yes",
+      "dialog_node": "node_9_1628701390251",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "frame",
+      "parent": "node_7_1628705641241",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "name": "$movie-title",
+            "type": "$type"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1628893000439"
+      },
+      "conditions": "@find:movie",
+      "dialog_node": "node_9_1628706980683",
+      "digress_out": "allow_all",
+      "previous_sibling": "slot_6_1628890620206",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1629120816291",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1629120816290"
+      },
+      "conditions": "@menu:subscription",
+      "dialog_node": "node_9_1629559720189"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "$webhook_result_1.first.name",
+            "source": "$webhook_result_1.first.poster",
+            "description": "Provider: $webhook_result_1.first.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.second.name",
+            "source": "$webhook_result_1.second.poster",
+            "description": "Provider: $webhook_result_1.second.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.third.name",
+            "source": "$webhook_result_1.third.poster",
+            "description": "Provider: $webhook_result_1.third.provider_name",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1628967565014",
+      "conditions": "$webhook_result_1.third",
+      "dialog_node": "response_10_1628967565018",
+      "previous_sibling": "response_9_1628967565018"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "$webhook_result_1.first.name",
+            "source": "$webhook_result_1.first.poster",
+            "description": "Provider: $webhook_result_1.first.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.second.name",
+            "source": "$webhook_result_1.second.poster",
+            "description": "Provider: $webhook_result_1.second.provider_name",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1628967565014",
+      "conditions": "$webhook_result_1.second",
+      "dialog_node": "response_11_1628967565018",
+      "previous_sibling": "response_10_1628967565018"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "$webhook_result_1.first.name",
+            "source": "$webhook_result_1.first.poster",
+            "description": "Provider : $webhook_result_1.first.provider_name",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1628967565014",
+      "conditions": "$webhook_result_1.first",
+      "dialog_node": "response_12_1628967565018",
+      "previous_sibling": "response_11_1628967565018"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry..couldn't find this series. Please type the exact name"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1628967565014",
+      "context": {},
+      "conditions": "anything_else",
+      "dialog_node": "response_13_1628967565018",
+      "previous_sibling": "response_12_1628967565018"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "$webhook_result_1.first.name",
+            "source": "$webhook_result_1.first.poster",
+            "description": "Provider : $webhook_result_1.first.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.second.name",
+            "source": "$webhook_result_1.second.poster",
+            "description": "Provider: $webhook_result_1.second.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.third.name",
+            "source": "$webhook_result_1.third.poster",
+            "description": "Provider: $webhook_result_1.first.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.fourth.name",
+            "source": "$webhook_result_1.fourth.poster",
+            "description": "Provider: $webhook_result_1.fourth.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.fifth.name",
+            "source": "$webhook_result_1.fifth.poster",
+            "description": "Provider: $webhook_result_1.fifth.provider_name",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1628706980683",
+      "conditions": "$webhook_result_1.fifth",
+      "dialog_node": "response_2_1628964788413"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "$webhook_result_1.first.name",
+            "source": "$webhook_result_1.first.poster",
+            "description": "Provider: $webhook_result_1.first.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.second.name",
+            "source": "$webhook_result_1.second.poster",
+            "description": "Provider: $webhook_result_1.second.provider_name",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1628706980683",
+      "conditions": "$webhook_result_1.second",
+      "dialog_node": "response_4_1628964610867",
+      "previous_sibling": "response_7_1628964618870"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "$webhook_result_1.first.name",
+            "source": "$webhook_result_1.first.poster",
+            "description": "Provider: $webhook_result_1.first.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.second.name",
+            "source": "$webhook_result_1.second.poster",
+            "description": "Provider: $webhook_result_1.second.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.third.name",
+            "source": "$webhook_result_1.third.poster",
+            "description": "Provider: $webhook_result_1.third.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.fourth.name",
+            "source": "$webhook_result_1.fourth.poster",
+            "description": "Provider: $webhook_result_1.fourth.provider_name",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1628706980683",
+      "conditions": "$webhook_result_1.fourth",
+      "dialog_node": "response_6_1628964743826",
+      "previous_sibling": "response_2_1628964788413"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "$webhook_result_1.first.name",
+            "source": "$webhook_result_1.first.poster",
+            "description": "Provider : $webhook_result_1.first.provider_name",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1628706980683",
+      "conditions": "$webhook_result_1.first",
+      "dialog_node": "response_7_1628964533078",
+      "previous_sibling": "response_4_1628964610867"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "$webhook_result_1.first.name",
+            "source": "$webhook_result_1.first.poster",
+            "description": "Provider: $webhook_result_1.first.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.second.name",
+            "source": "$webhook_result_1.second.poster",
+            "description": "Provider: $webhook_result_1.second.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.third.name",
+            "source": "$webhook_result_1.third.poster",
+            "description": "Provider: $webhook_result_1.third.provider_name",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1628706980683",
+      "conditions": "$webhook_result_1.third",
+      "dialog_node": "response_7_1628964618870",
+      "previous_sibling": "response_6_1628964743826"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "$webhook_result_2.first.title",
+            "source": "$webhook_result_2.first.poster",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_2.second.title",
+            "source": "$webhook_result_2.second.poster",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_2.third.title",
+            "source": "$webhook_result_2.third.poster",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_2.fourth.title",
+            "source": "$webhook_result_2.fourth.poster",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_2.fifth.title",
+            "source": "$webhook_result_2.fifth.poster",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1629109120616",
+      "context": {},
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_7_1629109120625",
+      "previous_sibling": "slot_4_1629109120625"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry..couldn't find this movie. Please type the exact name"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1628706980683",
+      "context": {},
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1628966933529",
+      "previous_sibling": "response_7_1628964533078"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "$webhook_result_1.first.name",
+            "source": "$webhook_result_1.first.poster",
+            "description": "Provider : $webhook_result_1.first.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.second.name",
+            "source": "$webhook_result_1.second.poster",
+            "description": "Provider: $webhook_result_1.second.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.third.name",
+            "source": "$webhook_result_1.third.poster",
+            "description": "Provider: $webhook_result_1.first.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.fourth.name",
+            "source": "$webhook_result_1.fourth.poster",
+            "description": "Provider: $webhook_result_1.fourth.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.fifth.name",
+            "source": "$webhook_result_1.fifth.poster",
+            "description": "Provider: $webhook_result_1.fifth.provider_name",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1628967565014",
+      "conditions": "$webhook_result_1.fifth",
+      "dialog_node": "response_8_1628967565018"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "$webhook_result_2.first.title",
+            "source": "$webhook_result_2.first.poster",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_2.second.title",
+            "source": "$webhook_result_2.second.poster",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_2.third.title",
+            "source": "$webhook_result_2.third.poster",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_2.fourth.title",
+            "source": "$webhook_result_2.fourth.poster",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_2.fifth.title",
+            "source": "$webhook_result_2.fifth.poster",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_5_1629060628922",
+      "context": {},
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_8_1629107975361",
+      "previous_sibling": "slot_6_1629108218663"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1629060628922",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1629107976241",
+      "previous_sibling": "response_8_1629107975361"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1629109120616",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1629109120625",
+      "previous_sibling": "response_7_1629109120625"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "$webhook_result_1.first.name",
+            "source": "$webhook_result_1.first.poster",
+            "description": "Provider: $webhook_result_1.first.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.second.name",
+            "source": "$webhook_result_1.second.poster",
+            "description": "Provider: $webhook_result_1.second.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.third.name",
+            "source": "$webhook_result_1.third.poster",
+            "description": "Provider: $webhook_result_1.third.provider_name",
+            "response_type": "image"
+          },
+          {
+            "title": "$webhook_result_1.fourth.name",
+            "source": "$webhook_result_1.fourth.poster",
+            "description": "Provider: $webhook_result_1.fourth.provider_name",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_1_1628967565014",
+      "conditions": "$webhook_result_1.fourth",
+      "dialog_node": "response_9_1628967565018",
+      "previous_sibling": "response_8_1628967565018"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1628967565014",
+      "variable": "$type",
+      "dialog_node": "slot_3_1628967565018",
+      "previous_sibling": "node_2_1628967565018"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1629109120616",
+      "variable": "$genre",
+      "dialog_node": "slot_4_1629109120625",
+      "previous_sibling": "node_3_1629109120625"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1628705641241",
+      "variable": "$type",
+      "dialog_node": "slot_6_1628890620206"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1629060628922",
+      "variable": "$genre",
+      "dialog_node": "slot_6_1629108218663",
+      "previous_sibling": "node_1_1629108866376"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1628706980683",
+      "variable": "$type",
+      "dialog_node": "slot_7_1628868939663",
+      "previous_sibling": "node_10_1628893000439"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hii, I'm Binge Master. Can't decide what to watch and where to find it? Let me help you.."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1628701390251"
+      },
+      "conditions": "welcome || #General_Greetings",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "Avengers"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}

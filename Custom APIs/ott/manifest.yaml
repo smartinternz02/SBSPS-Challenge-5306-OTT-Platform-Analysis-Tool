@@ -1,0 +1,7 @@
+--- 
+applications:
+    - name: OTT-recommender-app
+      random-route: true
+      memory: 300M
+      buildpacks:
+        - python_buildpack
