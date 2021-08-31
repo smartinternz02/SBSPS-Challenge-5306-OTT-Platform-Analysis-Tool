@@ -6,15 +6,15 @@ import { getData2, getData4 } from "../utils";
 
 //Defining URLs
 const NetflixMovieLanguage =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/Netflix/lang-movie-netflix.csv?token=AOKKBVFVYXLRKUTEK34ZT7DBGSPNG";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/Netflix/lang-movie-netflix.csv";
 const NetflixMovieGenre =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/Netflix/genre-movie-netflix.csv?token=AOKKBVGLM4G6GKN3H2NMVF3BGSPPK";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/Netflix/genre-movie-netflix.csv";
 const NetflixSeriesLanguage =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/Netflix/lang-series-netflix.csv?token=AOKKBVGQTCJ3KI665XV7XOLBGSPRI";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/Netflix/lang-series-netflix.csv";
 const NetflixSeriesGenre =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/Netflix/genre-series-netflix.csv?token=AOKKBVG57NV6WUNR2BMKKMDBGSPTS";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/Netflix/genre-series-netflix.csv";
 const NetflixMap =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/Netflix/netlix-map.csv?token=AOKKBVB5VZ2U4G46R2ERBC3BGSPVA";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/Netflix/netlix-map.csv";
 
 //Creating Actions for fetching Netflix Data for the detailed Netflix Analyis Section
 export const fetchNetflixMovieLanguage = () => {

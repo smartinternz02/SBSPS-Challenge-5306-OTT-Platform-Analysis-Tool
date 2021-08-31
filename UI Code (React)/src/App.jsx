@@ -30,7 +30,10 @@ function App() {
         <div className="img">
           <Error />
         </div>
-        <div className="text">This app is made for larger screen</div>
+        <div className="text" style={{ padding: 7 }}>
+          This app is made for larger screen. Please try with a larger screen
+          Tab, Laptop or Desktop.
+        </div>
       </div>
     );
 

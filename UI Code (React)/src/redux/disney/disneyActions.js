@@ -6,13 +6,13 @@ import { getData2 } from "../utils";
 
 //Defining URLs
 const DisneyMovieLanguage =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/Disney/lang-movie-disney.csv?token=AOKKBVHOZXL2BBJXDFRSQWDBGSO5Y";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/Disney/lang-movie-disney.csv";
 const DisneyMovieGenre =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/Disney/genre-movie-disney.csv?token=AOKKBVAZ7HOOJ45LMRARZP3BGSO7U";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/Disney/genre-movie-disney.csv";
 const DisneySeriesLanguage =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/Disney/lang-series-disney.csv?token=AOKKBVAAGCVBBL2Z7H74PPLBGSPHI";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/Disney/lang-series-disney.csv";
 const DisneySeriesGenre =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/Disney/genre-series-disney.csv?token=AOKKBVFQXLTVV5SJVI7NTNTBGSPIQ";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/Disney/genre-series-disney.csv";
 
 //Creating Actions for fetching Disney+ Hotstar Data for the detailed Disney+ Hotstar Analyis Section
 export const fetchDisneyMovieLanguage = () => {

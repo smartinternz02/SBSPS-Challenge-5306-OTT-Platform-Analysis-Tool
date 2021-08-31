@@ -6,27 +6,27 @@ import getData, { getData3 } from "../utils";
 
 //URLs for CSV data
 const ageMovieAll =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/age-movies-all.csv?token=AOKKBVEVZGWDJMTQVQ2Y6I3BGSOKI";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/age-movies-all.csv";
 const priceCompAll =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/price-comp-all.csv?token=AOKKBVHNOVUIKU3XWDM4L3LBGSOMA";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/price-comp-all.csv";
 const langMoviesAll =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/lang-movies-all.csv?token=AOKKBVGI6HNQK4AENWAZVY3BGSONW";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/lang-movies-all.csv";
 const genreMoviesAll =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/genre-movie-all%20.csv?token=AOKKBVHULC32AVQTFCAKXB3BGSOPK";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/genre-movie-all%20.csv";
 const imdbMoviesAll =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/imdb-movies-all.csv?token=AOKKBVDC7X6KEQ3SJVRDOFTBGSORC";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/imdb-movies-all.csv";
 const ageSeriesAll =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/age-series-all.csv?token=AOKKBVHFJZQJDAMQ2PASWB3BGSOSO";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/age-series-all.csv";
 const languageSeriesAll =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/lang-series-all.csv?token=AOKKBVEOKPYERFZBYFUANB3BGSOTW";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/lang-series-all.csv";
 const genreSeriesAll =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/genre-series-all.csv?token=AOKKBVCYED7UL3RIJ7G42PTBGSQOA";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/genre-series-all.csv";
 const imdbSeriesAll =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/imdb-series-all.csv?token=AOKKBVBTPIHAW4EML2JLZSDBGSOVK";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/imdb-series-all.csv";
 const userGrowthAll =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/user-growth-all.csv?token=AOKKBVARBPJ6CQQOUPIEJGTBGSOXE";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/user-growth-all.csv";
 const marketShareAll =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/market-share-all.csv?token=AOKKBVDRMDG6UFM6QUWOO4TBGSOYO";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/market-share-all.csv";
 
 //Creating actions for fetching dashboard data
 

@@ -6,13 +6,13 @@ import { getData2 } from "../utils";
 
 //Defining URLs
 const PrimeMovieLanguage =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/Prime/lang-movie-prime.csv?token=AOKKBVGN3HDWQ6PMYPGKCRTBGSPX2";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/Prime/lang-movie-prime.csv";
 const PrimeMovieGenre =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/Prime/genre-movie-prime.csv?token=AOKKBVGZC5HQVKVKZQHMWYTBGSP2U";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/Prime/genre-movie-prime.csv";
 const PrimeSeriesLanguage =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/Prime/lang-series-prime.csv?token=AOKKBVAVLA5F7RT6Z5ODGATBGSP44";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/Prime/lang-series-prime.csv";
 const PrimeSeriesGenre =
-  "https://raw.githubusercontent.com/akhiljayan29aj/FindYourBinge/main/src/assets/csv-data/Prime/genre-series-prime.csv?token=AN4JC4U4PKDNOEC3PT6UBBDBGUR3Os";
+  "https://raw.githubusercontent.com/smartinternz02/SBSPS-Challenge-5306-OTT-Platform-Analysis-Tool/main/UI%20Code%20(React)/src/assets/csv-data/Prime/genre-series-prime.csv";
 
 //Creating Actions for fetching Prime Video Data for the detailed Prime Videos Analyis Section
 export const fetchPrimeMovieLanguage = () => {
